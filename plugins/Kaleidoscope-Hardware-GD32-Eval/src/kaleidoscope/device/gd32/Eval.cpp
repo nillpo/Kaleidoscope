@@ -15,10 +15,9 @@
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifdef ARDUINO_GD32F303ZE_EVAL
+#ifdef ARDUINO_GD32F303CC_GENERIC
 
 #include "kaleidoscope/Runtime.h"
-#include "kaleidoscope/driver/keyscanner/Base_Impl.h"
 
 namespace kaleidoscope {
 namespace device {
