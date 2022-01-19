@@ -57,7 +57,7 @@ docker-bash:
 	ARDUINO_DIRECTORIES_USER="$(ARDUINO_DIRECTORIES_USER)" ./bin/run-docker "bash"
 
 run-tests: $(ARDUINO_DIRECTORIES_USER)/hardware/keyboardio/virtual/boards.txt build-gtest-gmock
-	$(MAKE) -c tests
+	$(MAKE) -C tests
 	@: # blah
 
 build-gtest-gmock:
